@@ -18,7 +18,18 @@ line */
 //case-sensitive
 // dont start with numbers
 
+//Single quotes will not evaluate special characters
+//variable values within the string
+
+//Double quotes will though.
+
 $studentName = "\n Fahad";
 echo $studentName;
 
+$studentName2 = '\nDanish';
+echo $studentName2;
+
+echo "\n\n Two students in TECHCareers are: \n - $studentName\n$studentName2.";
+
+echo '\n\n Two students in TECHCareers are: \n $studentName\n$studentName2.';
 
