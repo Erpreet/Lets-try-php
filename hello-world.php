@@ -36,5 +36,68 @@ echo '\n\n Two students in TECHCareers are: \n $studentName\n$studentName2.';
 //concatenation character in PHP is period
 echo "\n\n This string is being " . 'concatenated!';
 
+//datatypes
+//strings..
+
+$string1 = 'I \ a string!';
+$string2 = "I'm ALSO a string!";
+
+//Integers
+
+$int1 = -26;
+$int2 = 0;
+$int3 = 42;
+
+//Float/Doubles
+
+$float1 = 3.14;
+$float2 = -29.6;
+
+//Booleans
+$bool1 = TRUE;
+$bool2 = false;
+
+//arrays
+//these are indexed arrays
+$array1 = ['First value' , 17, 16.8, FALSE];
+
+$array2 = array('First value', 17, 16.8, FALSE);
+echo $array1[1];
+
+//Associative arrays have KEYS separated from VALUES but with fat arrow
+$array3 = array (
+    'key' => 'value',
+    'name' => 'George',
+    'age' => 36
+
+);
+
+echo $array3['name'];
+ 
+// Objects...
+$object = new stdClass(); // Create a new instance of Standard Class.
+$object->name = 'TECHCareers'; // Simple property assignment.
+$object->cohort = 4.2;
+$object->year = 2020;
+echo "\n\n$object->name" . ' | ' . $object->cohort . ' | ' . $object->year;
+
+//null
+$myNullVar = NULL; //again, case-insensitive
+
+//loops
+
+for($iterator  = 0; $iterator < 10; $iterator += 2)
+{
+    echo "\n OUR LOOP IS ON ITERATION: $iterator";
+}
+
+
+
+
+
+
+
+
+
 
 
