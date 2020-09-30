@@ -99,11 +99,17 @@ $students = [
     'Preet' => 'Enjoying nature',
 ];
 
-foreach ($students as $name => $hobby)
+foreach ($students as $abc => $hobby)
 {
-    echo "\n - Hi, my name is $name! I like $hobby.";
+    echo "\n - Hi, my name is $abc! I like $hobby.";
 }
 
+$i = 12;
+while($i > 2)
+{
+    echo "\n WHILE ITERATOR IS AT: $i";
+    $i --; //same as $i = $i - 1;
+}
 
 
 
