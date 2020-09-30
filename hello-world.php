@@ -33,3 +33,8 @@ echo "\n\n Two students in TECHCareers are: \n - $studentName\n$studentName2.";
 
 echo '\n\n Two students in TECHCareers are: \n $studentName\n$studentName2.';
 
+//concatenation character in PHP is period
+echo "\n\n This string is being " . 'concatenated!';
+
+
+
