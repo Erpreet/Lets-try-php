@@ -123,6 +123,9 @@ echo "\nAddition result:" . addition("23", 3);
 echo "\n Addition result:" . addition("hi5", 2);
 echo "\n Addition result:" . addition("7", 2);
 
+$myFunctionResult  = addition (2,2);
+echo  "\nResult from variable: $myFunctionResult";
+
 
 
 
