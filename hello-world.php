@@ -1,3 +1,7 @@
+This is before my PHP tag! This will be output as string
+
+
+
 <?php 
 
 //"Echo" and "prints" are functions we can
