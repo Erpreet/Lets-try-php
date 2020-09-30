@@ -14,4 +14,11 @@ echo "Hello, World!";
 multi
 line */
 
+//Variable names start with a dollar-sign ($)
+//case-sensitive
+// dont start with numbers
+
+$studentName = "\n Fahad";
+echo $studentName;
+
 
