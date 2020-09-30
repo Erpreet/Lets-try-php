@@ -91,6 +91,19 @@ for($iterator  = 0; $iterator < 10; $iterator += 2)
     echo "\n OUR LOOP IS ON ITERATION: $iterator";
 }
 
+//associative
+$students = [
+    'Danish' => 'Reading',
+    'Eboka' => 'Reading',
+    'Birm' => 'Watching Tennis',
+    'Preet' => 'Enjoying nature',
+];
+
+foreach ($students as $name => $hobby)
+{
+    echo "\n - Hi, my name is $name! I like $hobby.";
+}
+
 
 
 
