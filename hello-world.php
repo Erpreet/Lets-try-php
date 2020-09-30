@@ -111,6 +111,21 @@ while($i > 2)
     $i --; //same as $i = $i - 1;
 }
 
+echo "\n";
+
+function addition ($num1, $num2)
+{
+    return $num1 + $num2;
+}
+
+echo addition (5, 10); 
+echo "\nAddition result:" . addition("23", 3);
+echo "\n Addition result:" . addition("hi5", 2);
+echo "\n Addition result:" . addition("7", 2);
+
+
+
+
 
 
 
